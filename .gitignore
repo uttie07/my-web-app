@@ -1,0 +1,27 @@
+# 依存関係パッケージ
+node_modules/
+
+# ビルド成果物（TypeScriptコンパイル後など）
+dist/
+build/
+
+# 環境変数・機密情報
+.env
+.env.*
+!.env.example
+
+# テストカバレッジ・レポート
+coverage/
+
+# ログファイル
+*.log
+npm-debug.log*
+
+# OS固有の不要ファイル
+.DS_Store
+Thumbs.db
+
+# VSCode固有の設定・キャッシュ（必要に応じて）
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
